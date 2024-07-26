@@ -1,13 +1,19 @@
-
+import Header from './Header'
+import Body from './Body'
+import About from './About'
+import Projects from './Projects'
+import Footer from './Footer'
 
 function App() {
 
   return (
-    <>
-      <div className="w-full h-screen text-4xl text-blue-700">
-        Hello World
-      </div>
-    </>
+    <div >
+      <Header />
+      <Body />
+      <About />
+      <Projects />
+      <Footer />
+    </div>
   )
 }
 
